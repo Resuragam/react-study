@@ -14,14 +14,28 @@ import { createRoot } from "react-dom/client"
 
 // React18 渲染方式
 const root = createRoot(document.getElementById('root'))
-root.render(<div>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-</div>)
+// root.render(<div>
+//     <ul>
+//         <li>HTML</li>
+//         <li>CSS</li>
+//         <li>JavaScript</li>
+//     </ul>
+// </div>)
 
 /*
 * jsx = js + xml
 * */
+
+/*
+* class中使用className
+*
+* JSX 使用 React 构造组件，babel 进行编译 --> JavaScript 对象 --> ReactDom.render() --> DOM 元素 --> 插入页面
+* */
+root.render(<div id='aaa' className='bbb'>
+    11111
+</div>)
+
+// root.render(React.createElement('div', {
+//     id: 'aaa',
+//     className: 'bbb'
+// }, '11111'))
