@@ -8,9 +8,13 @@ import React from 'react'
 // ReactDom 渲染组件模块
 import ReactDom from 'react-dom'
 import { createRoot } from "react-dom/client"
+import App from './base/class_component'
+
 
 // React18 不再支持ReactDom.render方式进行渲染
 // ReactDom.render(<div>22222</div>, document.getElementById('root'))
+
+
 
 // React18 渲染方式
 const root = createRoot(document.getElementById('root'))
@@ -39,3 +43,5 @@ root.render(<div id='aaa' className='bbb'>
 //     id: 'aaa',
 //     className: 'bbb'
 // }, '11111'))
+
+root.render(<App></App>)
