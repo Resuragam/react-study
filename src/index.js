@@ -12,6 +12,8 @@ import { createRoot } from "react-dom/client"
 import App from './base/class_component'
 import Function_Component from './base/function_component'
 
+import Nested_component from "./base/nested_component";
+
 // React18 不再支持ReactDom.render方式进行渲染
 // ReactDom.render(<div>22222</div>, document.getElementById('root'))
 
@@ -45,4 +47,6 @@ root.render(<div id='aaa' className='bbb'>
 
 // root.render(<App></App>)
 
-root.render(<Function_Component></Function_Component>)
+// root.render(<Function_Component></Function_Component>)
+
+root.render(<Nested_component></Nested_component>)
