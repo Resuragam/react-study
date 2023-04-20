@@ -9,13 +9,15 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import { createRoot } from "react-dom/client"
 // 引入React Component 组件首字母必须大写
-import App from './base/class_component'
-import Function_Component from './base/function_component'
-import Style_Component from './base/style_component'
+// import App from './base/class_component'
+// import Function_Component from './base/function_component'
+// import Style_Component from './base/style_component'
 
-import Event_binding_Component from './todoList/event_binding'
+// import Event_binding_Component from './todoList/event_binding'
 
-import Nested_component from "./base/nested_component";
+import Ref_Component from './todoList/ref'
+
+// import Nested_component from "./base/nested_component"
 
 // React18 不再支持ReactDom.render方式进行渲染
 // ReactDom.render(<div>22222</div>, document.getElementById('root'))
@@ -39,9 +41,9 @@ const root = createRoot(document.getElementById('root'))
 *
 * JSX 使用 React 构造组件，babel 进行编译 --> JavaScript 对象 --> ReactDom.render() --> DOM 元素 --> 插入页面
 * */
-root.render(<div id='aaa' className='bbb'>
+/*root.render(<div id='aaa' className='bbb'>
     11111
-</div>)
+</div>)*/
 
 // root.render(React.createElement('div', {
 //     id: 'aaa',
@@ -56,4 +58,6 @@ root.render(<div id='aaa' className='bbb'>
 
 // root.render(<Style_Component></Style_Component>)
 
-root.render(<Event_binding_Component></Event_binding_Component>)
+// root.render(<Event_binding_Component></Event_binding_Component>)
+
+root.render(<Ref_Component></Ref_Component>)
