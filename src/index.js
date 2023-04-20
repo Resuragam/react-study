@@ -11,6 +11,7 @@ import { createRoot } from "react-dom/client"
 // 引入React Component 组件首字母必须大写
 import App from './base/class_component'
 import Function_Component from './base/function_component'
+import Style_Component from './base/style_component'
 
 import Nested_component from "./base/nested_component";
 
@@ -49,4 +50,6 @@ root.render(<div id='aaa' className='bbb'>
 
 // root.render(<Function_Component></Function_Component>)
 
-root.render(<Nested_component></Nested_component>)
+// root.render(<Nested_component></Nested_component>)
+
+root.render(<Style_Component></Style_Component>)
