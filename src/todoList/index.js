@@ -43,6 +43,17 @@ class App extends Component {
                         list
                     }
                 </ul>
+
+                {/*
+                    第一个方案,三目运算符
+                */}
+                {/*{ this.state.list.length === 0 ? <div>暂无待办事项</div> : null}*/}
+
+                {/*{ this.state.list.length === 0 && <div>暂无待办事项</div>}*/}
+
+                {/*
+                    显示与隐藏在 CSS 当中进行操作
+                */}
             </div>
         )
     }
@@ -60,12 +71,16 @@ class App extends Component {
             id: listId,
             value: this.todoListInput.current.value
         })
+
         listId ++
 
         this.setState({
             listId: listId,
             list: newList
         })
+
+        // 清空当前输入框
+        this.todoListInput.current.value = ''
     }
 
     handleDeleteClick = (id) => {
