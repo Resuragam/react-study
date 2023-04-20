@@ -41,9 +41,10 @@ export default class App extends Component {
         console.log(this)
     }
 
-    handleClickTree = () => {
+    handleClickTree = (event) => {
         console.log('button click3')
         console.log(this)
+        console.log(event.target) // 原生的 event 属性可以支持
     }
 
     handleClickFour = () => {
@@ -51,3 +52,9 @@ export default class App extends Component {
         console.log(this)
     }
 }
+
+/*
+* React 并不会真正绑定事件到每一个具体的元素上面，而是采用事件代理的模式
+* 事件捕获与冒泡阶段，通过 e.target 获取原生元素，检测是否存在事件监听器
+* 优点: 占用内存小，不需要关心事件解绑，减小心智负担，避免内存泄漏
+* */
