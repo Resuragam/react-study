@@ -15,7 +15,9 @@ import { createRoot } from "react-dom/client"
 
 // import Event_binding_Component from './todoList/event_binding'
 
-import Ref_Component from './todoList/ref'
+// import Ref_Component from './todoList/ref'
+
+import State_Component from './todoList/state'
 
 // import Nested_component from "./base/nested_component"
 
@@ -60,4 +62,6 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<Event_binding_Component></Event_binding_Component>)
 
-root.render(<Ref_Component></Ref_Component>)
+// root.render(<Ref_Component></Ref_Component>)
+
+root.render(<State_Component></State_Component>)
