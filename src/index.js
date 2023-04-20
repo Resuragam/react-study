@@ -13,6 +13,8 @@ import App from './base/class_component'
 import Function_Component from './base/function_component'
 import Style_Component from './base/style_component'
 
+import Event_binding_Component from './todoList/event_binding'
+
 import Nested_component from "./base/nested_component";
 
 // React18 不再支持ReactDom.render方式进行渲染
@@ -52,4 +54,6 @@ root.render(<div id='aaa' className='bbb'>
 
 // root.render(<Nested_component></Nested_component>)
 
-root.render(<Style_Component></Style_Component>)
+// root.render(<Style_Component></Style_Component>)
+
+root.render(<Event_binding_Component></Event_binding_Component>)
