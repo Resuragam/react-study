@@ -17,7 +17,8 @@ import { createRoot } from "react-dom/client"
 
 // import Ref_Component from './todoList/ref'
 
-import State_Component from './todoList/state'
+// import State_Component from './todoList/state'
+import Array_Component from './todoList/arrayrender'
 
 // import Nested_component from "./base/nested_component"
 
@@ -64,4 +65,6 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<Ref_Component></Ref_Component>)
 
-root.render(<State_Component></State_Component>)
+// root.render(<State_Component></State_Component>)
+
+root.render(<Array_Component></Array_Component>)

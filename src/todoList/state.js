@@ -8,9 +8,17 @@
 import React, {Component} from 'react';
 
 class App extends Component {
-    state = {
+    /*state = {
         text: '收藏',
         textShow: 'true'
+    }*/
+
+    constructor() {
+        super()
+        this.state = {
+            text: '收藏',
+            textShow: 'true'
+        }
     }
 
     render() {
@@ -23,6 +31,7 @@ class App extends Component {
                 <button onClick= { () => {
                     /*
                     * 修改 state 内部的属性值, 需要通过 setState 间接修改状态
+                    * setState 可以更新多个状态
                     * */
                     this.setState({
                         textShow: !this.state.textShow
