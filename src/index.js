@@ -20,8 +20,9 @@ import { createRoot } from "react-dom/client"
 // import State_Component from './todoList/state'
 // import Array_Component from './todoList/arrayrender'
 
-import List_Component from './todoList/index'
+// import List_Component from './todoList/index'
 
+import Tab_Component from './tab/index'
 
 // import Nested_component from "./base/nested_component"
 
@@ -72,4 +73,6 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<Array_Component></Array_Component>)
 
-root.render(<List_Component></List_Component>)
+// root.render(<List_Component></List_Component>)
+
+root.render(<Tab_Component></Tab_Component>)
