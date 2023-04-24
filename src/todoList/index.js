@@ -27,7 +27,15 @@ class App extends Component {
         const list = this.state.list.map(
             (item, index) => (
                 <li key = {item.id}>
-                    { item.value }
+                    {/*{ item.value }*/}
+                    {/*
+                        富文本展示
+                    */}
+                    <span dangerouslySetInnerHTML = {
+                        {
+                            __html: item.value
+                        }
+                    }></span>
                     <button onClick = { () => this.handleDeleteClick(item.id) }>
                         delete
                     </button>
