@@ -17,7 +17,7 @@ import React, { Component } from 'react'
 function NavBar() {
     return (
         <div>
-            Navbar
+            Index
         </div>
     )
 }

@@ -22,7 +22,9 @@ import { createRoot } from "react-dom/client"
 
 // import List_Component from './todoList/index'
 
-import Tab_Component from './tab/index'
+// import Tab_Component from './tab/index'
+
+import Navbar from "./navbar";
 
 // import Nested_component from "./base/nested_component"
 
@@ -75,4 +77,6 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<List_Component></List_Component>)
 
-root.render(<Tab_Component></Tab_Component>)
+// root.render(<Tab_Component></Tab_Component>)
+
+root.render(<Navbar></Navbar>)
