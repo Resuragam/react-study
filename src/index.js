@@ -24,7 +24,9 @@ import { createRoot } from "react-dom/client"
 
 // import Tab_Component from './tab/index'
 
-import Navbar from "./navbar";
+// import Navbar from "./navbar";
+
+import FunctionProps from "./navbar/function_Props"
 
 // import Nested_component from "./base/nested_component"
 
@@ -79,4 +81,6 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<Tab_Component></Tab_Component>)
 
-root.render(<Navbar></Navbar>)
+// root.render(<Navbar></Navbar>)
+
+root.render(<FunctionProps></FunctionProps>)

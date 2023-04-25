@@ -10,6 +10,15 @@ class Navbar extends Component {
     /*
     * 组件是父组件传递的 this.props
     * */
+
+    /*
+    * 默认属性
+    * */
+
+    static defaultProps = {
+        leftShow: true
+    }
+
     render() {
         let { title, leftShow } = this.props
         return (

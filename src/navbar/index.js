@@ -9,6 +9,10 @@ import Navbar from "./navbar"
 
 class App extends Component {
     render() {
+        const obj = {
+            title: '标题',
+            leftShow: true
+        }
         return (
             <div>
                 <div>
@@ -17,12 +21,16 @@ class App extends Component {
                 </div>
                 <div>
                     <h2>列表</h2>
-                    <Navbar title={"列表"} leftShow={true}></Navbar>
+                    <Navbar title={"列表"}></Navbar>
                 </div>
                 <div>
                     <h2>购物车</h2>
-                    <Navbar title={"购物车"} leftShow={true}></Navbar>
+                    <Navbar title={"购物车"}></Navbar>
                 </div>
+                {/*
+                    对象展开方式，简写
+                */}
+                <Navbar {...obj}></Navbar>
             </div>
         );
     }
