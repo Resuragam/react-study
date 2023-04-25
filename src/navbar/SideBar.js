@@ -27,7 +27,7 @@ function SideBar({backgroundColor, position}) {
 }
 
 SideBar.defaultProps = {
-    
+
 }
 
 export default SideBar;
