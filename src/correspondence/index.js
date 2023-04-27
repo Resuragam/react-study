@@ -9,6 +9,9 @@ import axios from 'axios'
 import FilmItem from "./FilmItem";
 import FilmDetail from "./FilmDetail";
 import "./CSS/index.css"
+
+const GlobalContext = React.createContext() // 创建context对象
+
 class App extends Component {
 
     constructor() {
@@ -18,7 +21,6 @@ class App extends Component {
             synopsis: ''
         }
         axios.get("/test.json").then((res) => {
-            console.log(res.data)
             this.setState({
                 filmList: res.data
             })
@@ -27,19 +29,24 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                {
-                    this.state.filmList.map(item =>
-                        <FilmItem key={item.filmId} {...item} event={(value) => {
-                            console.log('父组件接受')
-                            this.setState({
-                                synopsis: value
-                            })
-                        }}></FilmItem>
-                    )
-                }
-                <FilmDetail synopsis={this.state.synopsis}></FilmDetail>
-            </div>
+            <GlobalContext.Provider value={{
+                call: 'react',
+                message: 'hello'
+            }}>
+                <div>
+                    {
+                        this.state.filmList.map(item =>
+                            <FilmItem key={item.filmId} {...item} event={(value) => {
+                                console.log('父组件接受')
+                                this.setState({
+                                    synopsis: value
+                                })
+                            }}></FilmItem>
+                        )
+                    }
+                    <FilmDetail synopsis={this.state.synopsis}></FilmDetail>
+                </div>
+            </GlobalContext.Provider>
         );
     }
 }

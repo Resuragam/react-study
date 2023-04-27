@@ -6,14 +6,25 @@
 
 import React, {Component} from 'react';
 import "./CSS/index.css"
+const GlobalContext = React.createContext() // 创建context对象
+
 class FilmDetail extends Component {
     render() {
         return (
-            <div className={"filmDetail"}>
+            <GlobalContext.Consumer>
                 {
-                    this.props.synopsis
+                    (value) => (
+                        <div className={"filmDetail"}>
+                            {
+                                this.props.synopsis
+                            }
+                            {
+                                value
+                            }
+                        </div>
+                    )
                 }
-            </div>
+            </GlobalContext.Consumer>
         );
     }
 }
