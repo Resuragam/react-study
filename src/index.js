@@ -37,7 +37,9 @@ import Tab_Component from './tab/index'
 
 // import Form from "./form";
 
-import TestApp from './correspondence'
+// import TestApp from './correspondence'
+
+import Slot from "./base/Slot";
 // React18 不再支持ReactDom.render方式进行渲染
 // ReactDom.render(<div>22222</div>, document.getElementById('root'))
 
@@ -101,4 +103,6 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<Form></Form>)
 
-root.render(<TestApp></TestApp>)
+// root.render(<TestApp></TestApp>)
+
+root.render(<Slot></Slot>)
