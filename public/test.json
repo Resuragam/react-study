@@ -1,0 +1,515 @@
+[
+  {
+    "filmId": 6109,
+    "name": "长空之王",
+    "poster": "https://pic.maizuo.com/usr/movie/aa3de97be3fd0a54915684d2750d3773.jpg",
+    "actors": [
+      {
+        "name": "刘晓世",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/cdc59a8e1527bfe29749bc694ffc64ef.png"
+      },
+      {
+        "name": "王一博",
+        "role": "雷宇",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/fd239dabe7f2045116bff76b8be42e91.jpg"
+      },
+      {
+        "name": "胡军",
+        "role": "张挺",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/e51e34266a792e5f263245b343aacf50.jpg"
+      },
+      {
+        "name": "周冬雨",
+        "role": "沈天然",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/6fd569e16306588d15e0f3898ff3be96.jpg"
+      },
+      {
+        "name": "于适",
+        "role": "邓放",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/a05e6c02e6f5df195369793ba45a82d1.jpg"
+      }
+    ],
+    "director": "刘晓世",
+    "category": "剧情",
+    "synopsis": "雷宇（王一博饰）等优秀飞行员经过严苛选拔，正式成为了我国新一代试飞员——一款战斗机的正式列装，背后不仅有无数科研人员的努力，也需要试飞员们一次次对飞机的安全边界和极限状态进行测试。他们将在队长张挺（胡军饰）的带领下，参与到最新式、最尖端战斗机的试飞工作，在不断挑战战机和自我极限的过程中，一个个危机接踵而来……",
+    "filmType": {
+      "name": "4D",
+      "value": 13
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1682640000,
+    "timeType": 3,
+    "runtime": 127,
+    "item": {
+      "name": "4D",
+      "type": 13
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6281,
+    "name": "灌篮高手",
+    "poster": "https://pic.maizuo.com/usr/movie/8477c92681e64ca86bf04cbf2c9d6453.jpg",
+    "actors": [
+      {
+        "name": "井上雄彦",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/40864a8db58a48e4dbc72ecdb56cf2f5.jpg"
+      },
+      {
+        "name": "宫城良田",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/8d68c10d3b71e470f4981998e7faba9c.jpg"
+      },
+      {
+        "name": "三井寿",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/1b427ccbda4d2851f341d7bfe42a771e.jpg"
+      },
+      {
+        "name": "流川枫",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/5bd86d92043c5da6597b9466990d6eca.jpg"
+      },
+      {
+        "name": "樱木花道",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/c5f3654be48e511fdb754c9657a68134.jpg"
+      }
+    ],
+    "director": "井上雄彦",
+    "category": "动画|青春|热血",
+    "synopsis": "「The First Slam Dunk」是《灌篮高手》首部大电影，也是最后一部！弥补青春遗憾的机会只此一次！宫城良田、三井寿、流川枫、樱木花道和赤木刚宪终于站在全国大赛的赛场，代表湘北高中与日本最强球队山王工业展开激烈对决。面对强大的对手，湘北五人组没有退缩，在安西教练的指导下，他们抱着破釜沉舟的决心热血奋战，究竟湘北能否取得比赛的最终胜利？承载好几代人热血梦想的全国大赛即将开赛，巅峰之战，就此一决！27年的等待即将划上完美句点，是时候跟自己的青春道别了！",
+    "filmType": {
+      "name": "2D",
+      "value": 1
+    },
+    "nation": "日本",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1681948800,
+    "timeType": 3,
+    "runtime": 124,
+    "grade": "7.1",
+    "item": {
+      "name": "2D",
+      "type": 1
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6285,
+    "name": "人生路不熟",
+    "poster": "https://pic.maizuo.com/usr/movie/340a70a052cb16b3451d6bf4db8c61e1.jpg",
+    "actors": [
+      {
+        "name": "易小星",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/6cbf36fe82cdb70ab3d91ce9705c4d59.jpg"
+      },
+      {
+        "name": "乔杉",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/9e66d564ede175a20ea38e86ee9bdb61.jpg"
+      },
+      {
+        "name": "范丞丞",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/9b245d1be159af72fc1ae29c9ae5869d.jpg"
+      },
+      {
+        "name": "马丽",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/f4e271abe4b44870a005f9b737627977.png"
+      },
+      {
+        "name": "张婧仪",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/5ca8965f3e43b90c1e0ca016e92702ce.jpg"
+      }
+    ],
+    "director": "易小星",
+    "category": "喜剧|剧情",
+    "synopsis": "超爆笑五一档唯一喜剧片！超强势喜剧阵容笑料频出！乔杉、范丞丞、马丽、张婧仪、常远、田雨、尹正笑闹囧途！车队大佬周东海（乔杉 饰）和老婆霍梅梅（马丽 饰）阴差阳错地与女儿周微雨（张婧仪 饰）及女儿的男朋友万一帆（范丞丞 饰）同行自驾，踏上人生路不熟的探亲之旅，周东海决定借此机会给准女婿来一场全方位无死角的考察，万一帆也用生命演绎了什么叫做教科书级翻车。一路上先后遭遇周东海死对头“添堵专业户”贾主任（田雨 饰）的房车事故、微雨“青梅竹马”光子(常远 饰)的“野鸡”山庄醉酒闹剧、捉拿公路贼团“油耗子”的围堵大战，鸡飞狗跳的探亲之旅窘态百出，爆笑不断！",
+    "filmType": {
+      "name": "4D",
+      "value": 13
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1682640000,
+    "timeType": 3,
+    "runtime": 100,
+    "item": {
+      "name": "4D",
+      "type": 13
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6298,
+    "name": "长沙夜生活",
+    "poster": "https://pic.maizuo.com/usr/movie/cf4072a237750087426ee82a53da9ce6.jpg",
+    "actors": [
+      {
+        "name": "张冀",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/93008c4bb8ff2e7594afb08f9d0c0aa8.jpg"
+      },
+      {
+        "name": "尹昉",
+        "role": "景为为",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/d46249545e5f6b6d03c9c810959bfeb9.jpg"
+      },
+      {
+        "name": "张婧仪",
+        "role": "何西西",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/c767e57634a28a0ce28d66de165b8b9e.jpg"
+      },
+      {
+        "name": "张艺兴",
+        "role": "何岸",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/e97cc13ff9737a77c2bec7fd00b3fd1b.jpg"
+      },
+      {
+        "name": "苏岩",
+        "role": "丽姐",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/3306b6f7c07416ca9143c39222ea1351.jpg"
+      }
+    ],
+    "director": "张冀",
+    "category": "剧情|爱情",
+    "synopsis": "故事发生在长沙的一个奇妙的夜晚。夜猫子景为为（尹昉 饰）在书店邂逅了明早将要离开故乡的何西西（张婧仪 饰），俩人相约搭伙夜游。何西西聊起同父异母的哥哥，脱口秀演员何岸（张艺兴 饰），就在今晚的演出上，何岸的父亲（罗钢 饰）出现在观众席中，俩人不欢而散。另一边，陈清智（白宇帆 饰）、梁宝琦（周思羽 饰）、老谢（吴军 饰）守护着摩天轮，他们边欣赏夜景，边感叹打工不易。夜更深了，这一晚也是网红大排档老板娘丽姐（苏岩 饰）最后一次掌勺做粉，她决定让自己的徒弟旭哥（吴昊宸 饰）接手继续经营大排档。夜晚即将过去，一群人一起坐在大排档里嗦粉，邂逅、热爱、留下、离开、和解、团圆，都发生在这座城市里，每个人都找到了深爱这里的理由。",
+    "filmType": {
+      "name": "2D",
+      "value": 1
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1682640000,
+    "timeType": 3,
+    "runtime": 106,
+    "item": {
+      "name": "2D",
+      "type": 1
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6287,
+    "name": "惊天救援",
+    "poster": "https://pic.maizuo.com/usr/movie/6f1b7e987e7433ba7db5370a6942d531.jpg",
+    "actors": [
+      {
+        "name": "彭顺",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/f7b1ae3866c31c63433fcb60a4ceca46.jpg"
+      },
+      {
+        "name": "杜江",
+        "role": "韩凯",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/a76f9404dd6ed4032b5fd1645c6781e4.jpg"
+      },
+      {
+        "name": "王千源",
+        "role": "赵映旗",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/3e552517390f3d029ce2fa63ccf209d9.jpg"
+      },
+      {
+        "name": "佟丽娅",
+        "role": "叶歆",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/89d4bb6e9cfdb2ac41925a1aa5364fd1.jpg"
+      },
+      {
+        "name": "韩雪",
+        "role": "张虹",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/529230d0aef6d1eab6457c759d56b586.jpg"
+      }
+    ],
+    "director": "彭顺",
+    "category": "灾难|动作|剧情",
+    "synopsis": "一场突如其来的地震波及整个灌城化工园区，管道泄漏触发爆炸不断。浓烟滚滚、火光冲天，灾难迅速升级，如果任其蔓延，整座城市将被夷为平地……面对要救火又要救人的严峻考验，消防救援站一众队员第一时间奔赴重灾区，危难时刻争分夺秒，用生命守护生命。",
+    "filmType": {
+      "name": "2D",
+      "value": 1
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1682640000,
+    "timeType": 3,
+    "runtime": 115,
+    "item": {
+      "name": "2D",
+      "type": 1
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6291,
+    "name": "这么多年",
+    "poster": "https://pic.maizuo.com/usr/movie/d66fc56891ac8af1dc04682d68172009.jpg",
+    "actors": [
+      {
+        "name": "季竹青",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/366b851ae1d5fd75c0d96d224712ebde.jpg"
+      },
+      {
+        "name": "张新成",
+        "role": "李燃",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/0c9ba62b2bc8eca630971a32b2f33f41.jpg"
+      },
+      {
+        "name": "孙千",
+        "role": "陈见夏",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/87b3aa55784d93552de4d386d8f87885.jpg"
+      },
+      {
+        "name": "章若楠",
+        "role": "凌翔茜",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/98e1f0c6bcf9076de5594b77e688db4f.jpg"
+      },
+      {
+        "name": "刘丹",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/3ffc2faa4cc38848272c895b5c844a35.jpg"
+      }
+    ],
+    "director": "季竹青",
+    "category": "爱情|青春|家庭",
+    "synopsis": "你想象过和前任久别重逢的场景吗？你会抱紧，还是逃离？从小生活在重男轻女环境中的女孩陈见夏（孙千 饰），在振华中学遇见了叛逆却善良的浑小子李燃（张新成 饰），他成为陈见夏生活里的唯一光亮。他们彼此救赎，却又遗憾分开。多年后，重逢的那刻才明白，以为是反复地爱上你，原来是，我一直没有停止过爱你。",
+    "filmType": {
+      "name": "2D",
+      "value": 1
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1682640000,
+    "timeType": 3,
+    "runtime": 116,
+    "item": {
+      "name": "2D",
+      "type": 1
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6295,
+    "name": "倒数说爱你",
+    "poster": "https://pic.maizuo.com/usr/movie/119fa82f4cb71bebd1cfbb8453208657.jpg",
+    "actors": [
+      {
+        "name": "孙天宇",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/fae3e68a76d07ca303ae8abd8985787e.png"
+      },
+      {
+        "name": "周也",
+        "role": "韩书妍",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/87dfc931a47fd8300ae0d10de5577e46.jpg"
+      },
+      {
+        "name": "赵小棠",
+        "role": "演员",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/23b5079d92be3f9e31cdfd994326a330.jpg"
+      },
+      {
+        "name": "林孝谦",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/35f23de2dc6b1560b2da344c31468fcb.jpg"
+      },
+      {
+        "name": "陈飞宇",
+        "role": "谷雨轩",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/2c12e8fdf559fb94010d1dd0840100b0.jpg"
+      }
+    ],
+    "director": "林孝谦",
+    "category": "爱情|奇幻",
+    "synopsis": "最坚定的奔赴，最盛大的告白，即便时间与生死阻碍，我们依旧要爱！命中注定的相遇，让谷雨轩（陈飞宇 饰）和韩书妍（周也 饰）儿时结缘，长大后又重逢。坠入爱河后的他们本是如此幸福甜蜜，却不料突遭命运考验，在时间循环中反复经历生离死别的痛苦。当时间的齿轮又一次开始转动，双向奔赴的他们会付出什么代价来战胜时间、用爱创造奇迹？",
+    "filmType": {
+      "name": "2D",
+      "value": 1
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1682640000,
+    "timeType": 3,
+    "runtime": 101,
+    "item": {
+      "name": "2D",
+      "type": 1
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6123,
+    "name": "检察风云",
+    "poster": "https://pic.maizuo.com/usr/movie/f884d43664bbce465d9d687096dfa91c.jpg",
+    "actors": [
+      {
+        "name": "麦兆辉",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/fc6d94e519b58fa37c5bd7cb5cd990c0.jpg@1246w_1246h_1l_0e"
+      },
+      {
+        "name": "黄景瑜",
+        "role": "李睿",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/bdc28d8c55716f4cab90c0f4b332cef0.jpg@1246w_1246h_1l_0e"
+      },
+      {
+        "name": "白百何",
+        "role": "童雨辰",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/7528b14177bf3734a7095d40a8b25e02.jpg@1246w_1246h_1l_0e"
+      },
+      {
+        "name": "王丽坤",
+        "role": "夏薇",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/4dbd9cb1f079374e8bf4856d69b906a2.jpg@1246w_1246h_1l_0e"
+      },
+      {
+        "name": "王千源",
+        "role": "张有成",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/dce714879e31df5cbbf620257a8304c4.jpg@1246w_1246h_1l_0e"
+      }
+    ],
+    "director": "麦兆辉",
+    "category": "剧情|犯罪",
+    "synopsis": "中国第一部检察官视角的罪案庭审电影重磅推出！大学教授夏薇（王丽坤饰）涉嫌故意杀人，舆论发酵失控，多方压力涌来。随着检察官李睿（黄景瑜饰）和同事张有成（王千源饰）对该案进行审查，发现作恶多端的富商陈鑫（包贝尔饰）与此案密切相关，一桩深埋多年的旧案被牵出…故意杀人案、强奸案、官商勾结环环相扣，所有人都被迫卷进这场命运的漩涡。李睿与夏薇辩护律师童雨辰（白百何饰）在法庭上激烈交锋，夏薇究竟为何沉默不语？她的丈夫洪俊山（冯绍峰饰）又隐藏了什么秘密？正邪敌我难辨，无法预料的危机等待着众人…",
+    "filmType": {
+      "name": "2D",
+      "value": 1
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1651276800,
+    "timeType": 3,
+    "runtime": 100,
+    "grade": "7.1",
+    "item": {
+      "name": "2D",
+      "type": 1
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6258,
+    "name": "忠犬八公",
+    "poster": "https://pic.maizuo.com/usr/movie/7b8c4891b9a8d1d599a158ab49f1708a.jpeg",
+    "actors": [
+      {
+        "name": "徐昂",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/b882d4d2f85a5eda158b717b5045b8a1.jpg"
+      },
+      {
+        "name": "大黄（中华田园犬）",
+        "role": "八筒",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/91dd210d31e0de13183a56be4fce2745.jpg"
+      },
+      {
+        "name": "冯小刚",
+        "role": "陈敬修",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/8412ec8377d454f980c54149d48f9051.jpg"
+      },
+      {
+        "name": "陈冲",
+        "role": "李佳珍",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/82d9ddeff8ca35dc24be8b22f54a9702.jpg"
+      },
+      {
+        "name": "白举纲",
+        "role": "陈新桥",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/a2939a5023cdab5257a3240ea9f12d80.jpg"
+      }
+    ],
+    "director": "徐昂",
+    "category": "剧情|家庭",
+    "synopsis": "这是一只小狗感动全球数亿人的故事。八筒是一只可爱的中华田园犬，在茫茫人海中遇到了命中注定的主人陈敬修，成为了陈家的一员。随着时间的推移，曾经美好的家已经不在，但八筒仍在原地等待，它的命运同它的家人紧紧地牵绊在一起。本片改编自新藤兼人原著剧本「ハチ公物語」。",
+    "filmType": {
+      "name": "4D",
+      "value": 13
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1680220800,
+    "timeType": 3,
+    "runtime": 125,
+    "grade": "7.6",
+    "item": {
+      "name": "4D",
+      "type": 13
+    },
+    "isPresale": true,
+    "isSale": false
+  },
+  {
+    "filmId": 6290,
+    "name": "新猪猪侠大电影·超级赛车",
+    "poster": "https://pic.maizuo.com/usr/movie/f979efa2a7c188f927be03c5a5d80e4d.jpg",
+    "actors": [
+      {
+        "name": "钟彧",
+        "role": "导演",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/696b0deaea9b68888371f3aa0cf694ae.jpg"
+      },
+      {
+        "name": "陆双",
+        "role": "猪猪侠",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/33ecf990c0229e654762efee0435b6e7.jpg"
+      },
+      {
+        "name": "陈志荣",
+        "role": "迷糊博士",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/95cea091c0235c6c77b93c1aa596e612.jpg"
+      },
+      {
+        "name": "张页川",
+        "role": "羊教授",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/0635dacb55ae8984fd292886d5ea4350.jpg"
+      },
+      {
+        "name": "吴海涛",
+        "role": "鸡哥、巫师",
+        "avatarAddress": "https://pic.maizuo.com/usr/movie/8e9ea609b6738a94a12b8ee1f7883eb0.png"
+      }
+    ],
+    "director": "钟彧",
+    "category": "动画|冒险|喜剧",
+    "synopsis": "竞速之城，一座悬浮在空中的赛车城市。正受邀出席最新赛季开幕式的超星特工猪猪侠，意外接到紧急任务：支撑悬浮的竞速之星被盗，城市即将坠毁，猪猪侠必须在72小时内找回能源。一场惊险刺激的冒险赛程，就此展开。",
+    "filmType": {
+      "name": "2D",
+      "value": 1
+    },
+    "nation": "中国大陆",
+    "language": "",
+    "videoId": "",
+    "premiereAt": 1682726400,
+    "timeType": 3,
+    "runtime": 85,
+    "item": {
+      "name": "2D",
+      "type": 1
+    },
+    "isPresale": true,
+    "isSale": false
+  }
+]
