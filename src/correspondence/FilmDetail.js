@@ -6,8 +6,7 @@
 
 import React, {Component} from 'react';
 import "./CSS/index.css"
-const GlobalContext = React.createContext() // 创建context对象
-
+import { GlobalContext } from './context'
 class FilmDetail extends Component {
     render() {
         return (
@@ -17,9 +16,6 @@ class FilmDetail extends Component {
                         <div className={"filmDetail"}>
                             {
                                 this.props.synopsis
-                            }
-                            {
-                                value
                             }
                         </div>
                     )

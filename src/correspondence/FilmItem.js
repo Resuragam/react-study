@@ -6,8 +6,7 @@
 
 import React, {Component} from 'react';
 import "./CSS/index.css"
-
-const GlobalContext = React.createContext() // 创建context对象
+import { GlobalContext } from './context'
 
 class FilmItem extends Component {
     render() {

@@ -10,7 +10,7 @@ import FilmItem from "./FilmItem";
 import FilmDetail from "./FilmDetail";
 import "./CSS/index.css"
 
-const GlobalContext = React.createContext() // 创建context对象
+import { GlobalContext } from './context'
 
 class App extends Component {
 
