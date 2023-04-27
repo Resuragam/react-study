@@ -6,9 +6,11 @@
 
 import React, {Component} from 'react'
 import './CSS/tab.css'
+import TabBar from "./components/TabBar";
 import Film from "./components/Film"
 import Cinema from "./components/Cinema"
 import Center from "./components/Center"
+import NavBar from "./components/NavBar";
 
 class App extends Component {
     state = {
@@ -32,7 +34,13 @@ class App extends Component {
     render() {
         return (
             <div>
-                {
+                <NavBar event={() => {
+                    console.log('NavBar')
+                    this.setState({
+                        current: 2
+                    })
+                }}></NavBar>
+                {/*{
                     this.state.current === 0 && <Film></Film>
                 }
                 {
@@ -40,26 +48,33 @@ class App extends Component {
                 }
                 {
                     this.state.current === 2 && <Center></Center>
+                }*/}
+                {
+                    this.handleWitch(this.state.current)
                 }
-                <ul>
-                    {
-                        this.state.list.map((item, index) => (
-                            <li key = { item.id } className = {
-                                this.state.current === index ? 'active' : ''
-                            } onClick = { () => this.handleClickTab(index) }>
-                                { item.text }
-                            </li>
-                        ))
-                    }
-                </ul>
+                <TabBar event={this.handleModifyCurrent} current={this.state.current}></TabBar>
             </div>
         );
     }
 
-    handleClickTab = (index) => {
+    handleModifyCurrent = (index) => {
+        // console.log(index)
         this.setState({
             current: index
         })
+    }
+
+    handleWitch(index) {
+        switch (index) {
+            case 0:
+                return <Film></Film>
+            case 1:
+                return <Cinema></Cinema>
+            case 2:
+                return <Center></Center>
+            default:
+                return null
+        }
     }
 }
 

@@ -22,7 +22,7 @@ import { createRoot } from "react-dom/client"
 
 // import List_Component from './todoList/index'
 
-// import Tab_Component from './tab/index'
+import Tab_Component from './tab/index'
 
 // import Navbar from "./navbar";
 
@@ -31,7 +31,8 @@ import { createRoot } from "react-dom/client"
 // import unControlled from "./base/unControlled";
 // import Controlled from "./base/controlled";
 
-import Emit from './advanced/emit'
+// import Emit from './advanced/emit'
+
 // import Nested_component from "./base/nested_component"
 
 // React18 不再支持ReactDom.render方式进行渲染
@@ -83,7 +84,7 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<List_Component></List_Component>)
 
-// root.render(<Tab_Component></Tab_Component>)
+root.render(<Tab_Component></Tab_Component>)
 
 // root.render(<Navbar></Navbar>)
 
@@ -93,4 +94,4 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<Controlled></Controlled>)
 
-root.render(<Emit></Emit>)
+// root.render(<Emit></Emit>)
