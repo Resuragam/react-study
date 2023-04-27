@@ -29,7 +29,9 @@ import { createRoot } from "react-dom/client"
 // import FunctionProps from "./navbar/function_Props"
 
 // import unControlled from "./base/unControlled";
-import Controlled from "./base/controlled";
+// import Controlled from "./base/controlled";
+
+import Emit from './advanced/emit'
 // import Nested_component from "./base/nested_component"
 
 // React18 不再支持ReactDom.render方式进行渲染
@@ -89,4 +91,6 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<UnControlled></UnControlled>)
 
-root.render(<Controlled></Controlled>)
+// root.render(<Controlled></Controlled>)
+
+root.render(<Emit></Emit>)
