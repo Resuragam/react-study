@@ -35,6 +35,8 @@ import Tab_Component from './tab/index'
 
 // import Nested_component from "./base/nested_component"
 
+import Form from "./form";
+
 // React18 不再支持ReactDom.render方式进行渲染
 // ReactDom.render(<div>22222</div>, document.getElementById('root'))
 
@@ -84,7 +86,7 @@ const root = createRoot(document.getElementById('root'))
 
 // root.render(<List_Component></List_Component>)
 
-root.render(<Tab_Component></Tab_Component>)
+// root.render(<Tab_Component></Tab_Component>)
 
 // root.render(<Navbar></Navbar>)
 
@@ -95,3 +97,5 @@ root.render(<Tab_Component></Tab_Component>)
 // root.render(<Controlled></Controlled>)
 
 // root.render(<Emit></Emit>)
+
+root.render(<Form></Form>)
